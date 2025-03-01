@@ -1,0 +1,133 @@
+
+body {
+  background: linear-gradient(135deg, #000428, #004e92);
+ }
+ *{
+ color:white;
+ }
+ 
+ nav{
+   display:flex;
+   justify-content: space-between;
+ }
+ .nav-left{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+ }
+ .company-name{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:29px;
+   font-weight: 550;
+   margin-right:30px;
+ }
+ .motto{
+   text-decoration: wavy;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color:#ffd700;
+   font-size: 13px;;
+ }
+ .my-logo{
+   width:130px;
+   height:100px;
+ }
+ 
+ .nav-list{
+   display: flex;
+   gap:16px;
+   list-style: none;
+   padding-top:20px;
+   padding-right: 100px;
+  
+  
+ }
+ li a{
+   text-decoration: none;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 10px;
+ }
+ li a:hover{
+   color:rgb(235, 220, 23);
+ }
+ li::after{
+   content: " | ";
+  
+ }
+ 
+ 
+ 
+ 
+ .main-div{
+   display: flex;
+   flex-direction: row;
+   height: 400px;
+   gap:50px;
+ }
+ .left-div{
+  flex:1;
+  display: flex;
+  justify-content: end;
+  height: 100%;
+ }
+ 
+ .my-image{
+   width:350px;
+   height:350px;
+   border-radius: 50%;
+   object-fit:contain;
+   border:3px solid white;
+ }
+ 
+ .right-div{
+   width: 670px;
+   height: 100%;
+   position: relative;
+  
+ }
+ .description{
+   width:300px;
+   line-height: 30px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ footer{
+   position: fixed;
+   left:0;
+   bottom:0;
+   right:0;
+   background-color: rgb(17, 31, 110);
+   display: flex;
+   justify-content: center;
+  
+ }
+ .footer-list{
+   display: flex;
+   gap:20px;
+ }
+ .footer-list li{
+   text-decoration: none;
+   list-style:none;
+  
+ }
+ 
+ .explore-button{
+   position:absolute;
+   bottom:0;
+   padding:20px 50px;
+   left:270px;
+   background:white;
+   border:none;
+   border-radius:29px;
+   font-family: Arial;
+   font-weight: bold;
+   color:rgb(63, 63, 204);
+   cursor:pointer;
+ }
+ .explore-button:hover{
+   background:none;
+   color:white;
+   border:3px solid white;
+   
+ }
+ 
