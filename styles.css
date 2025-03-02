@@ -1,6 +1,6 @@
 
 body {
-  background: linear-gradient(135deg, #000428, #004e92);
+  background: linear-gradient(135deg, #000000, #0e1318);
  }
  *{
  color:white;
@@ -30,7 +30,8 @@ body {
  }
  .my-logo{
    width:130px;
-   height:100px;
+   height:130px;
+  
  }
  
  .nav-list{
@@ -49,9 +50,9 @@ body {
    font-size: 10px;
  }
  li a:hover{
-   color:rgb(235, 220, 23);
+   color:rgb(204, 169, 13);
  }
- li::after{
+ .nav-list li::after{
    content: " | ";
   
  }
@@ -76,7 +77,7 @@ body {
    width:350px;
    height:350px;
    border-radius: 50%;
-   object-fit:contain;
+   object-fit:scale-down;
    border:3px solid white;
  }
  
@@ -86,17 +87,24 @@ body {
    position: relative;
   
  }
+ .right-div h1{
+font-family:Arial;
+font-size:40px;
+ }
+ .right-div h2{
+  color:rgb(204, 169, 13);
+ }
  .description{
    width:300px;
    line-height: 30px;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
  footer{
    position: fixed;
    left:0;
    bottom:0;
    right:0;
-   background-color: rgb(17, 31, 110);
+   background-color: rgb(204, 169, 13);
    display: flex;
    justify-content: center;
   
